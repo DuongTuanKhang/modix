@@ -1,7 +1,7 @@
 {
-      "scripts": {
-        "minify": "terser modix.js -o modix.min.js && csso modix.css -o modix.min.css"
-    },
+  "scripts": {
+    "minify": "terser src/modix.js -o modix.min.js && csso src/modix.css -o modix.min.css"
+  },
   "dependencies": {
     "csso-cli": "^4.0.2",
     "terser": "^5.46.0"
